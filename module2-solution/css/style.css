@@ -1,0 +1,44 @@
+/********** Base styles **********/
+* {
+	box-shadow: border-box;
+}
+
+
+/********** Responsive design **********/
+.row {
+	width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+	.col-lg-4 {
+	float: left;
+	border: 1px solid black;  
+	width: 33.33%;   	
+	}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6, .col-md-12 {
+	float: left;
+	border: 1px solid black;  	
+	}
+	.col-md-6 {
+		width: 50%;
+	}
+	.col-md-12 {
+		width: 100%;
+	}
+
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+	.col-sm-12 {
+		float: left;
+	    border: 1px solid black;
+	    width: 100%; 
+	}
+
+}
