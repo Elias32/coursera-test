@@ -1,0 +1,43 @@
+body {
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	background-color: grey;
+}
+#collapsable-nav ul li hr {
+	margin: 5px auto 5px;
+	color: black;
+}
+#header-nav {
+	background-color: #293133;
+	border-radius: 0;
+	border: 1px solid white;
+	margin-left: -30px;
+}
+#brand {
+	margin-left: 30px;
+	font-size: 20px;
+	color: white;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list {
+	color: white;
+}
+.container-fluid > div > h3 {
+	font-size: 2em;
+	margin-top: 5px;
+}
+.container-fluid section {
+	background-color: black;
+	color: white;
+	height: 1000px;
+	text-align: center;
+	border: 2px solid white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+	#header-nav #collapsable-nav {
+		background-color: black;
+	}
+}
